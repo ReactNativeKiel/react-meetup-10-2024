@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form input,
+form textarea {
+  @apply bg-white px-2 py-1 text-black outline-none;
+}
+
+.with-error input,
+.with-error textarea {
+  @apply bg-red-100 outline-2 outline-offset-0 outline-red-400;
+}
