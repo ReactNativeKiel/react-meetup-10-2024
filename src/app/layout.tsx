@@ -7,7 +7,7 @@ import { Next, Prev } from "~/components/presentation/NextPrev";
 
 export const metadata: Metadata = {
   title:
-    "How to build maintainable, type-safe forms faster | React meetup Kiel",
+    "How to build maintainable, type-safe forms faster | React meetup Kiel #25",
 };
 
 const RootLayout: React.FC<LayoutProps> = ({ children }) => {
@@ -26,7 +26,7 @@ const RootLayout: React.FC<LayoutProps> = ({ children }) => {
         <Next />
 
         <div className="fixed bottom-4 right-4 text-lg font-thin tracking-wide">
-          Basti Buck, react meetup Kiel, 07.10.2024
+          Basti Buck, react meetup Kiel #25, 07.10.2024
         </div>
       </body>
     </html>

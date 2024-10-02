@@ -15,12 +15,12 @@ const Page: React.FC = () => {
           {`How to build a form?
 
             - Generate a mapping
-            - create <Form />
-            - use <Form /> with a zod schema
+            - create <OurCustomForm />
+            - use <OurCustomForm /> with a zod schema
           `}
         </CodeBlock>
 
-        {/* <NewEventForm /> foes here  */}
+        {/* <NewEventForm /> goes here  */}
       </PageContent>
     </>
   );

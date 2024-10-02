@@ -1,4 +1,5 @@
 import React from "react";
+import BulletPoints from "~/components/presentation/BulletPoints";
 import Headline from "~/components/presentation/Headline";
 import PageContent from "~/components/presentation/PageContent";
 
@@ -8,13 +9,29 @@ const Page: React.FC = () => {
       <Headline>react-ts-form</Headline>
 
       <PageContent>
-        {/* Links and screenshots or smt */}
+        <BulletPoints>
+          <BulletPoints.Item>
+            <a
+              target="_blank"
+              href="https://react-ts-form.com/"
+              className="text-blue-800 underline hover:text-blue-700"
+            >
+              react-ts-form.com
+            </a>
+          </BulletPoints.Item>
 
-        {/* 
-          Typesafety First 👷‍♂️: check
-          No more boilerplate 🧰: check
-          Headless 🤯: check
-        */}
+          <BulletPoints.Item indent={1}>
+            Wrapper around react-hook-form
+          </BulletPoints.Item>
+
+          <BulletPoints.Item>Claims</BulletPoints.Item>
+
+          <BulletPoints.Item indent={1}>Typesafety First 👷‍♂</BulletPoints.Item>
+          <BulletPoints.Item indent={1}>
+            No more boilerplate 🧰
+          </BulletPoints.Item>
+          <BulletPoints.Item indent={1}>Headless 🤯</BulletPoints.Item>
+        </BulletPoints>
       </PageContent>
     </>
   );
