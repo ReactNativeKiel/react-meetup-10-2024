@@ -8,8 +8,9 @@ import Base from "./Base";
 const TextField: ReactComponentWithRequiredProps<
   React.ComponentProps<typeof Base> & {
     rows?: number;
+    borderRad?: number;
   }
-> = ({ rows, ...baseProps }) => {
+> = ({ rows,  borderRad = 0, ...baseProps }) => {
   const {
     field: { onChange, value },
   } = useTsController<string>();

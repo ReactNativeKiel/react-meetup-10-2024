@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import BulletPoints from "~/components/presentation/BulletPoints";
 import Headline from "~/components/presentation/Headline";
